@@ -1,5 +1,5 @@
 <x-laravel-ui-adminlte::adminlte-layout>
-@section('title', 'PVE Ingresar')
+@section('title', 'Ingresar')
     <body class="hold-transition login-page" background="{{asset('img/Fondo2.jpg')}}">
         <div class="login-box">
             <div class="login-logo">
