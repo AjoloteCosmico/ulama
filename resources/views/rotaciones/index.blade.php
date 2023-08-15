@@ -4,7 +4,6 @@
 
 <div class="container-fluid"  background="{{asset('img/Fondo4.jpg')}}">
 <br> <br> <br>
-<h1>CATALOGO DE PELOTAS </h1>
 <div class="col-6 col-sm-12 table-responsive">
   <a href="{{ route('pelotas.create')}}">
     <button class="btn btn-primary" style="padding:10px;"> 
@@ -17,18 +16,16 @@
       <thead>
         <tr>
           <th>Pelota</th>
-          <th>Institucion</th>
-          <th>Caracteristicas</th>
-          <th>Portador actual</th>
+          <th>Jugador que entrega</th>
+          <th>Jugador que recibe</th>
+          <th>Fecha </th>
         </tr>
 
       </thead>
       <tbody>
-        @foreach($Pelotas as $p)
+        @foreach($Rotaciones as $r)
         <tr>
-          <td>{{$p->nombre}}</td>
-          <td>{{$p->institucion}}</td>
-          <td>{{$p->caracteristicas}}</td>
+         
           <td></td>
         </tr>
         @endforeach
