@@ -1,11 +1,11 @@
 <x-laravel-ui-adminlte::adminlte-layout>
 @section('title', 'Ingresar')
-    <body class="hold-transition login-page" background="{{asset('img/Fondo2.jpg')}}">
+    <body class="hold-transition login-page" background="{{asset('img/Fondo3.jpg')}}">
         <div class="login-box">
             <div class="login-logo">
                 <a href="{{ url('/home') }}"><b style="color: white">Sistema de Registro de Rotaciones <br> Sierra Tonantzin Tlalli</b>
                 <br>
-                <img src="{{asset('img/logo.jpg')}}"
+                <img src="{{asset('img/logo-sierra.jfif')}}"
                                     class="img-circle elevation-2" alt="User Image" style="width:30%;"></a>
             </div>
             <!-- /.login-logo -->

@@ -1,6 +1,6 @@
 <x-laravel-ui-adminlte::adminlte-layout>
 <head>
-<link rel="shortcut icon" type="image/png" href="{{ asset('img/logoPVE.png') }}">
+<link rel="shortcut icon" type="image/png" href="{{ asset('img/logo-sierra.jfif') }}">
 <script src="//code.jquery.com/jquery-1.12.3.js"></script>
 <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <script
@@ -16,7 +16,7 @@
         }
         .content-wrapper {
    
-   background: url("{{asset('img/Fondo2.jpg')}}") 50% 0 no-repeat fixed;
+   background: url("{{asset('img/Fondo4.jpg')}}") 50% 0 no-repeat fixed;
     background-size: cover;
     font-weight: bold;
   size: 60px;
@@ -28,6 +28,36 @@
     
 }
      </style>
+      <!-- Bootstrap 5.0 -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- Font Awesome 6 Kit LEPER SYSTEMS -->
+        <script src="https://kit.fontawesome.com/1bfa36884d.js" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Load Source Sans Pro font -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet">
+        <!-- Load Nunito font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <!-- Load Roboto font -->
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet">
+        <!-- Load Amaranth font -->
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- DataTables -->
+    	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.3.1/dt-1.10.25/af-2.3.7/b-1.7.1/b-print-1.7.1/cr-1.5.4/date-1.1.0/fc-3.3.3/fh-3.1.9/kt-2.6.2/r-2.2.9/rg-1.1.3/rr-1.2.8/sc-2.0.4/sb-1.1.0/sp-1.3.0/sl-1.3.3/datatables.min.css"/>
+
+        <!-- Select2 -->
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('vendor/img/ico/apple-touch-icon-144.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('vendor/img/ico/apple-touch-icon-114.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('vendor/img/ico/apple-touch-icon-72.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ asset('vendor/img/ico/apple-touch-icon-57.png') }}">
+        <link rel="shortcut icon" href="{{ asset('vendor/img/ico/favicon.ico') }}">
+
      @stack('css')
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -48,7 +78,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown user-menu">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                            <img src="{{asset('img/logo.jpg')}}"
+                            <img src="{{asset('img/logo-sierra.jfif')}}"
                                 class="user-image img-circle elevation-2" alt="User Image">
                             <span class="d-none d-md-inline" style="color:white;"> 
                                 <!-- aki iba el nombre de usuario pero lo quite  -->
@@ -59,7 +89,7 @@
                         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                             <!-- User image -->
                             <li class="user-header ">
-                                <img src="{{asset('img/logo.jpg')}}"
+                                <img src="{{asset('img/logo-sierra.jfif')}}"
                                     class="img-circle elevation-2" alt="User Image">
                                 <p>
                                     {{ Auth::user()->name }}
@@ -95,7 +125,7 @@
                 <div class="float-right d-none d-sm-block" >
                     <b>Version</b> 3.1.0
                 </div>
-                <strong>Copyright &copy; 2022-2023 <a href="https://www.facebook.com/ullamaUNAM/">ULAMA TEXOCELOTZIN UNAM </a>.</strong> All rights
+                <strong>Copyright &copy; 2022-2023 <a href="https://www.facebook.com/ullamaUNAM/">ULAMA SIERRA TONANTZIN TLALLI</a>.</strong> All rights
                 reserved.
             </footer>
         </div>
