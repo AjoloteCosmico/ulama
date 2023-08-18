@@ -5,7 +5,7 @@
 <div class="container-fluid"  background="{{asset('img/Fondo4.jpg')}}">
 <br> <br> <br>
 <div class="col-6 col-sm-12 table-responsive">
-  <a href="{{ route('pelotas.create')}}">
+  <a href="{{ route('rotaciones.create')}}">
     <button class="btn btn-primary" style="padding:10px;"> 
     <i class="fa-solid fa-plus-circle"></i>&nbsp; Nueva
                

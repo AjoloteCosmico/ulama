@@ -5,10 +5,10 @@
 <div class="container-fluid"  background="{{asset('img/Fondo4.jpg')}}">
 <div class="row rounded-b-none rounded-t-lg shadow-xl bg-white">
             <h5 class="card-title p-2">
-                <i class="fas fa-plus-circle"></i>&nbsp; REGISTRAR PELOTA:
+                <i class="fas fa-plus-circle"></i>&nbsp; REGISTRAR ROTACION:
             </h5>
         </div>
-        <form action="{{ route('pelotas.store')}}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('rotaciones.store')}}" method="POST" enctype="multipart/form-data">
         @csrf
        <div class="row rounded-b-lg rounded-t-none mb-4 shadow-xl bg-gray-300">
             <div class="row p-4">

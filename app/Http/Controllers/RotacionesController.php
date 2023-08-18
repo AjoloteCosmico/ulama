@@ -18,12 +18,12 @@ class RotacionesController extends Controller
         return view('rotaciones.create');
     }
     public function store(Request $request){
-        $Pelota= new Pelota();
+        $Rotacion= new Rotacion();
 
-        $Pelota->nombre=$request->nombre;
-        $Pelota->institucion=$request->institucion;
-        $Pelota->caracteristicas=$request->caracteristicas;
-        $Pelota->save();
+        $Rotacion->nombre=$request->nombre;
+        $Rotacion->institucion=$request->institucion;
+        $Rotacion->caracteristicas=$request->caracteristicas;
+        $Rotacion->save();
         return redirect()->route('rotaciones.index');
     }
 }

@@ -7,21 +7,21 @@
     </a>
 </li>
 <li class="nav-item">
-    <a href="{{ route('rotaciones.index') }}" class="nav-link {{ Request::is('2019') ? 'active' : '' }}">
-    <i class="fa fa-plus" aria-hidden="true"></i>
-        <p> Registrar rotacion </p>
+    <a href="{{ route('rotaciones.index') }}" class="nav-link {{ Request::is('rotaciones.index') ? 'active' : '' }}">
+    <i class="fa fa-exchange" aria-hidden="true"></i>
+        <p> Rotaciones </p>
     </a>
 </li>
 <li class="nav-item">
-    <a href="{{ route('pelotas.index') }}" class="nav-link {{ Request::is('2019') ? 'active' : '' }}">
-    <i class="fa fa-plus" aria-hidden="true"></i>
-        <p> Registrar Pelota </p>
+    <a href="{{ route('pelotas.index') }}" class="nav-link {{ Request::is('pelotas.index') ? 'active' : '' }}">
+    <i class="fa fa-circle" aria-hidden="true"></i>
+        <p> Pelotas </p>
     </a>
 </li>
 <li class="nav-item">
     <a href="{{ route('home') }}" class="nav-link {{ Request::is('2014_act') ? 'active' : '' }}">
-        <i class="fa fa-cash "></i>
-        <p>Tesoreria</p>
+        <i class="fas fa-users "></i>
+        <p>Jugadores</p>
     </a>
 </li>
 <li class="nav-item">
