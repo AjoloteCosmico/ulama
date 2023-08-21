@@ -26,8 +26,9 @@
         @foreach($Rotaciones as $r)
         <tr>
          <td> {{$r->nombre}}</td>
+         <td></td>
           <td> {{$r->name}}</td>
-          <td></td>
+        
           <td> {{$r->date}}</td>
         </tr>
         @endforeach
