@@ -18,24 +18,25 @@
                             
                             
                                   
-                                    <div class="form-group">
-                                      <h1 style="color:#1b2a1b">Nombre</h1>
-                                        
-                                        <input type="text"  name="nombre" class="form-control  w-full text-xl" />
-                                        
-                                    </div>
+                                    
                                     <h1 style="color: #1b2a1b;">Institucion</h1>
-                                    <select class="form-capture  w-full text-xl uppercase" name="institucion" style="color:#1b2a1b;" >
-                                        <option  > UNAM </option> 
-                                        <option  > SIERRA</option>  
+                                    <select class="form-capture  w-full text-xl uppercase" name="pelota_id" style="color:#1b2a1b;" >
+                                      @foreach($Pelotas as $p)  
+                                    <option  value="{{$p->id}}"> {{$p->nombre}} </option> 
+                                        @endforeach
                                     </select>
                                     <div class="form-group">
-                                      <h1 style="color:#1b2a1b">Caracteristicas</h1>
+                                      <h1 style="color:#1b2a1b">Fecha</h1>
                                         
-                                        <input type="text"  name="caracteristicas" class="form-control  w-full text-xl" />
+                                        <input type="date"  name="date" class="form-control  w-full text-xl" />
                                         
                                     </div>
-                             
+                                    <div class="form-group">
+                                      <h1 style="color:#1b2a1b">Observaciones</h1>
+                                        
+                                        <input type="text"  name="observations" class="form-control  w-full text-xl" />
+                                        
+                                    </div>
 
                         </div>
                     </div>
