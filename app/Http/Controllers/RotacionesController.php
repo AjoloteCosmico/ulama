@@ -17,8 +17,7 @@ class RotacionesController extends Controller
         ->join('users','users.id','=','rotacion.user_id')
         ->select('rotacion.*','users.name','pelotas.nombre')
         ->get();
-        ;
-        dd($Rotaciones);
+        
         return view('rotaciones.index',compact('Rotaciones'));
     }
     public function create(){
