@@ -12,10 +12,10 @@ use Illuminate\Support\Facades\Auth;
 class RotacionesController extends Controller
 {
     public function index(){
-        $Rotaciones=DB::table('rotaciones')
-        ->join('pelotas','pelotas.id','=','rotaciones.pelota_id')
-        ->join('users','users.id','=','rotaciones.user_id')
-        ->select('rotaciones.*','users.name','pelotas.nombre')
+        $Rotaciones=DB::table('rotacion')
+        ->join('pelotas','pelotas.id','=','rotacion.pelota_id')
+        ->join('users','users.id','=','rotacion.user_id')
+        ->select('rotacion.*','users.name','pelotas.nombre')
         ->get();
         ;
         dd($Rotaciones);
